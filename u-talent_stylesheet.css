@@ -17,3 +17,14 @@ h2 {
     font-size: xx-large;
     text-decoration: underline;
 }
+
+div.scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+div.scroll-container img {
+    padding: 10px;
+    border-radius: 15px;
+}
