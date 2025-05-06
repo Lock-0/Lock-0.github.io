@@ -24,7 +24,6 @@ div.scroll-container {
     white-space: nowrap;
     padding: 10px;
     scrollbar-base-color: black;
-    scrollbar-margin: 10px;
 }
 
 div.scroll-container img {
@@ -32,4 +31,6 @@ div.scroll-container img {
     border-radius: 12px;
     width: 500px;
     height: 600px;
+    max-width: fit-content;
+    max-height: fit-content;
 }
