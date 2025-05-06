@@ -19,13 +19,17 @@ h2 {
 }
 
 div.scroll-container {
-    
+    background-color: rgba(31, 30, 37, 0.731);
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
+    scrollbar-base-color: black;
+    scrollbar-margin: 10px;
 }
 
 div.scroll-container img {
-    padding: 10px;
-    border-radius: 15px;
+    margin: 10px;
+    border-radius: 12px;
+    max-width: 500px;
+    max-height: 800px;
 }
