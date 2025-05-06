@@ -12,13 +12,14 @@ h1 {
 }
 
 h2 {
-    color: black;
+    color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
     text-decoration: underline;
 }
 
 div.scroll-container {
+    
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
